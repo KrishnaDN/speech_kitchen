@@ -10,7 +10,15 @@ $ pip install speech_kitchen
 
 ## Usage
 
-- TODO
+```python
+from speech_kitchen.speech_kitchen import count_words
+from speech_kitchen.speech_kitchen import plot_words
+import matplotlib.pyplot as plt
+file_path = ”test.txt” # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
 
 ## Contributing
 
