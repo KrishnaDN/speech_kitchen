@@ -1,6 +1,6 @@
 import numpy as np
 from collections import Counter
-from src.speech_kitchen import count_words
+from speech_kitchen.speech_kitchen import count_words
 
 def test_count_words():
     expected = Counter({'insanity': 1, 'is': 1, 'doing': 1,
